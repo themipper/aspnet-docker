@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1.0-sdk-msbuild
+FROM martinibanez/dotnet-docker:1.1.0-sdk-msbuild
 
 # set up network
 ENV ASPNETCORE_URLS http://+:80
